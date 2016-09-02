@@ -88,7 +88,7 @@ public class EmailSender {
                InternetAddress.parse(to));
 
             // Set Subject: header field
-            message.setSubject("Testing Subject");
+            message.setSubject("11-601 Shuffle for the week");
 
             // Create the message part
             BodyPart messageBodyPart = new MimeBodyPart();
